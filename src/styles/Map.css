@@ -1,0 +1,39 @@
+.content {
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+.content div {
+  display:inline-block;
+}
+#dates , #map {
+  display: inline-block;
+}
+#dates {
+  width: 25%;
+  height: calc(100vh - 75px);
+  text-align: center;
+  overflow-y: auto;
+}
+#dates ul {
+  padding: 0;
+  list-style: none;
+}
+#dates ul li {
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: 1px #50C878 solid;
+}
+#dates ul li:hover {
+  cursor: pointer;
+  font-size:24px;
+}
+
+#dates #date-header {
+  color: #73C2FB;
+  font-size: 28px;
+  line-height: 28px;
+}
+#map {
+  width: 75%;
+  height: calc(100vh - 75px);
+}
